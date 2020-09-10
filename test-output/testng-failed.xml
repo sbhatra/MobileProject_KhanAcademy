@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AppiumSuite]">
+  <listeners>
+    <listener class-name="resource.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="AppiumTest(failed)">
+    <classes>
+      <class name="testcases.webPlayVideo">
+        <methods>
+          <include name="playVideo"/>
+        </methods>
+      </class> <!-- testcases.webPlayVideo -->
+    </classes>
+  </test> <!-- AppiumTest(failed) -->
+</suite> <!-- Failed suite [AppiumSuite] -->

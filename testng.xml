@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AppiumSuite">
+<listeners>
+        <listener class-name="resource.ExtentReporterNG" />
+    </listeners>
+  <test thread-count="5" name="AppiumTest">
+    <classes>
+      <class name="testcases.appSignIn"/>
+      <class name="testcases.appSelectCourse"/>
+      <class name="testcases.webPlayVideo"/>
+      <class name="testcases.appSignOut"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
